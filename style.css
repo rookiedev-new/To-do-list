@@ -50,7 +50,7 @@ body{
 }
 @media (max-width: 600px) {
     .box1 {
-        width: 95vw;
-        min-width: unset;
+        width: 450px;
+        
     }
 }
