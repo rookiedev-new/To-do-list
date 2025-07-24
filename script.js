@@ -20,10 +20,17 @@ user.addEventListener("keypress", (e) => {
 
 const process=(data)=>{
   const newli=document.createElement("li");
+  const delbtb=document.createElement("button");
+  delbtb.textContent="🗑️";
+  delbtb.classList.add("remove");
   newli.textContent=data;
+ 
+   newli.append(delbtb);
   newli.classList.add("listitm");
+  
   list.append(newli);
-  newli.addEventListener("click",()=>{
+
+  delbtb.addEventListener("click",()=>{
    newli.remove();
   })
 }

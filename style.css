@@ -45,14 +45,23 @@ body{
  padding: 4px 10px;
  font-weight: bold; 
  min-height: 35px;
- margin-left: 10px;cursor: pointer;
+ margin-left: 10px;
 
 }
+.remove{
+font-size: 20px;
+border: none;
+margin-left: 10px;
+cursor: pointer;
+background: transparent;}
 .box2{
     padding: 10px 12px;
 }
 .listitm{
+  text-align: left;
    padding: 5px 8px;
+   display: flex;
+   justify-items: center;
     list-style-type: none;
     background-color: white;
     width: 100%;
@@ -65,8 +74,7 @@ body{
 }
 @media (max-width: 650px) {
   .box1 {
-    width: 90%;
-   
-    
+    width: auto;
+    height:100vh;
   }
 }
